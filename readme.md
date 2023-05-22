@@ -5,8 +5,17 @@
 
 ## Deployment
 
-clonar repositorio
+Clonar repositorio
 
 ```bash
-  clone
+  git clone https://github.com/danielnr25/website-agencia-viajes.git
 ```
+Instalar dependencias
+```bash
+  npm install 
+```
+Arrancar servidor 
+```bash
+  npm run dev 
+```
+

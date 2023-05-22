@@ -1,0 +1,73 @@
+.trip{
+   margin: 4rem 6rem;
+   color : #2a2a2a;
+}
+
+.trip h1{
+   font-weight: 700;
+   font-size: 3rem;
+   text-align: center;
+   padding-bottom: 1rem;
+}
+
+.trip-text{
+   font-size: 1.1rem;
+   text-align: center;
+}
+
+.tripcard{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 3rem;
+}
+
+.t-card{
+   width: 32%;
+   text-align: start;
+   box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.1);
+   border-radius: 0.438rem;
+   cursor: pointer;
+   padding: 1rem .8rem;
+   transition: all 0.3s ease-in-out;
+}
+
+.t-image{
+   height: 200px;
+   overflow: hidden;
+   border-radius: 0.438rem;
+}
+
+.t-image img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   transition: 0.3s ease-in-out;
+   border-radius: 0.438rem;
+}
+
+.t-image img:hover{
+   transform: scale(1.3);
+}
+
+.t-card h4{
+   font-size: 1.3em;
+   padding: .9rem 0 .2rem 0;
+}
+
+@media screen and (max-width: 850px) {
+   .trip{
+      margin: 4rem 2rem;
+   }
+
+   .tripcard{
+      flex-direction: column;
+   }
+
+   .t-card{
+      width: 100%;
+      margin-bottom: 1.5rem;
+   }
+
+
+   
+}
